@@ -1,6 +1,6 @@
-= AKCP
+= AKCP Sensor Probe
 
-OpenNMS configuration for AKCP devices.
+OpenNMS configuration for AKCP Sensor Probe devices.
 
 == Installation
 
@@ -23,7 +23,7 @@ cp ${HOME}/opennms-config-workspace/akcp/events/*.xml ${OPENNMS_HOME}/etc/events
 .Include in eventconf.xml
 [source, xml]
 ----
-<event-file>events/akcp.events.xml</event-file>
+<event-file>events/akcp.sensorprobe.events.xml</event-file>
 ----
 
 === Data Collection
@@ -37,7 +37,7 @@ cp ${HOME}/opennms-config-workspace/akcp/datacollection/*.xml ${OPENNMS_HOME}/et
 .Include in datacollection-config.xml
 [source, xml]
 ----
-<include-collection dataCollectionGroup="_template_"/>
+<include-collection dataCollectionGroup="AKCP sensorProbe"/>
 ----
 
 === Graph Report Definitions
