@@ -1,6 +1,4 @@
-<?xml version="1.0"?>
-
-<datacollection-group name="AKCP sensorProbe">
+<datacollection-group xmlns="https://xmlns.opennms.org/xsd/config/datacollection" name="AKCP sensorProbe">
 
     <!-- AKCP sensorProbe -->
     <resourceType name="hhmsSensorArrayTemp" label="AKCP" resourceLabel="${spTempDescr}">
