@@ -14,7 +14,7 @@ git clone https://github.com/opennms-config-modules/akcp.git
 
 === Events
 
-.Install AKCP events
+.Install events
 [source, bash]
 ----
 cp ${HOME}/opennms-config-workspace/akcp/events/*.xml ${OPENNMS_HOME}/etc/events
